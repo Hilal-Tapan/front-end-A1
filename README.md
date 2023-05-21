@@ -41,6 +41,20 @@ This project has a MIT License - see the license file for more details.
 
 ***
 
+## To do
+[ ] Wiki
+[ ] Readme afmaken
+[ ] uitleg in code zetten
+
+
+## WebApi's
+[X] HTMLButtonElement.disabled 
+[X] navigator.onLine
+[X] HashChangeEvent
+[X] setTimeout
+[X] Window.onload
+[X] HTMLElement -> setAttribute and removeAttribute
+
 ---
 
 
