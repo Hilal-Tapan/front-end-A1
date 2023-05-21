@@ -28,7 +28,7 @@ export function stopLoading() {
  * @throws {Error} - Gooit altijd een fout met een bericht dat wijst op de mislukking
  */
 export const handleFetchError = (element, error) => {
-    element.innerHTML = "failed to load quotes";
+    element.innerHTML = "failed to load cats";
 
     throw new Error(`Failed to fetch data: ${error}`);
     // Do something to handle the error, e.g. display an error message to the user
