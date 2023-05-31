@@ -1,7 +1,7 @@
 # 👋🏼 Random Cat generator
 Welcome to the random cat generator. This is a one page webpage that uses a third party API as well as WebAPI's. You can fetch random cats and have a laugh at these cute creatures!
 
-{Live Link}[https://hilal-tapan.github.io/front-end-A1/]
+[Live Link](https://hilal-tapan.github.io/front-end-A1/)
 
 ***
 
