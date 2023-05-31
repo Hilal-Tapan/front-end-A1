@@ -48,7 +48,7 @@ This project has a MIT License - see the license file for more details.
 
 ## To do
 [ ] Wiki
-[ ] Readme afmaken
+[X] Readme afmaken
 [ ] uitleg in code zetten
 
 
