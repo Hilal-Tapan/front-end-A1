@@ -1,7 +1,16 @@
-# 👋🏼 hi
+# 👋🏼 Random Cat generator
+Welcome to the random cat generator. This is a one page webpage that uses a third party API as well as WebAPI's. You can fetch random cats and have a laugh at these cute creatures!
 
+(Live Link){https://hilal-tapan.github.io/front-end-A1/}
 
+***
 
+## 💻  Installation 💻 
+1. Clone to your computer
+
+2. Open the file in your code editor
+   
+3. Go live on port 5500!
 
 ***
 
@@ -14,21 +23,12 @@
 
 ***
 
-## 💻  Installation 💻 
-1. Clone to your computer
-
-2. Open the index.html file in your browser or use localhost
-
-***
-
-## 💾  External Data Source API 💾 
-
-
-*** 
-
 ## 🔎 Features 🔎
-
-
+* Generate random cat pictures with a third party API (cataas API)
+* Hash change
+* Disabled button when loading the api fetch
+* other webAPI's (check my wiki for more info)
+  
 ***
 
 ## 📄  License 📄 
@@ -37,7 +37,12 @@ This project has a MIT License - see the license file for more details.
 ***
 
 ## 	📁 Sources 	📁
-
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement 
+* https://developer.mozilla.org/en-US/docs/Web/API 
+* https://cataas.com/#/ 
+* https://www.tutorialsteacher.com/webapi/what-is-web-api 
+* DLO
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs 
 
 ***
 
