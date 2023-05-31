@@ -43,6 +43,10 @@ header {
     padding: 1em 0 0 1em;
 }
 
+header img {
+    width: 20vw;
+}
+
 /*---------------------------------------------- navigation -------------------------------------------------------*/
 nav {
     position: absolute;
