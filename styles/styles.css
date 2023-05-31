@@ -10,9 +10,9 @@
     --nav-fontsize: 1.3em;
     --button-color: #7BB3F4;
 
-    --cirkel-lichtgrijs: lightgreen;
-    --cirkel-geel: lightblue;
-    --cirkel-donkergrijs: orange;
+    --cirkel-lichtgroen: lightgreen;
+    --cirkel-blauw: lightblue;
+    --cirkel-oranje: orange;
     --inline-shadow: white;
     --drop-shadow: black;
 }
@@ -46,6 +46,7 @@ header {
 header img {
     width: 20vw;
 }
+
 
 /*---------------------------------------------- navigation -------------------------------------------------------*/
 nav {
@@ -97,7 +98,7 @@ main ul li:nth-of-type(1) {
     width: 18em;
     height: 18em;
     border-radius: 15em;
-    background-color: var(--cirkel-lichtgrijs);
+    background-color: var(--cirkel-lichtgroen);
     top: 3em;
     right: -6em;
     animation-name: cirkel1;
@@ -125,7 +126,7 @@ main ul li:nth-of-type(2) {
     width: 15em;
     height: 15em;
     border-radius: 10em;
-    background-color: var(--cirkel-donkergrijs);
+    background-color: var(--cirkel-oranje);
     top: -4em;
     right: -4em;
 }
@@ -134,7 +135,7 @@ main ul li:nth-of-type(3) {
     width: 13em;
     height: 13em;
     border-radius: 13em;
-    background-color: var(--cirkel-lichtgrijs);
+    background-color: var(--cirkel-lichtgroen);
     top: 28em;
     right: -5em;
 }
@@ -143,7 +144,7 @@ main ul li:nth-of-type(4) {
     width: 8em;
     height: 8em;
     border-radius: 8em;
-    background-color: var(--cirkel-geel);
+    background-color: var(--cirkel-blauw);
     top: 25em;
     right: -3em;
     animation-name: cirkel2;
@@ -170,7 +171,7 @@ main ul li:nth-of-type(5) {
     width: 6em;
     height: 6em;
     border-radius: 6em;
-    background-color: var(--cirkel-geel);
+    background-color: var(--cirkel-blauw);
     left: -3em;
     top: 19em;
     animation-name: cirkel3;
@@ -197,7 +198,7 @@ main ul li:nth-of-type(6) {
     width: 15em;
     height: 15em;
     border-radius: 15em;
-    background-color: var(--cirkel-donkergrijs);
+    background-color: var(--cirkel-oranje);
     left: -6em;
     bottom: -5em;
 }
@@ -206,7 +207,7 @@ main ul li:nth-of-type(7) {
     width: 7em;
     height: 7em;
     border-radius: 7em;
-    background-color: var(--cirkel-geel);
+    background-color: var(--cirkel-blauw);
     left: 4em;
     bottom: -3em;
     animation-name: cirkel4;
@@ -243,7 +244,7 @@ section.active {
     transform: translateX(8%) translateY(25%);
 }
 
-section:nth-of-type(1) > div:nth-of-type(1) {
+section:nth-of-type(1)>div:nth-of-type(1) {
     width: 60vw;
     height: 60vw;
     padding: 4em 3em 4em 3em;
@@ -270,16 +271,6 @@ section:nth-of-type(1) > div:nth-of-type(1) {
     max-height: 100%;
     object-fit: contain;
 }
-
-
-
-/* 
-section:nth-of-type(1) h2 {
-    font-family: Soulcraft;
-    font-size: 2em;
-    letter-spacing: .2em;
-    margin: 0 0 .3em 0;
-} */
 
 section:nth-of-type(1) p {
     font-family: arial;
@@ -308,31 +299,6 @@ section:nth-of-type(1) button {
 section:nth-of-type(1) button:disabled {
     background-color: orange;
 }
-/* 
-section:nth-of-type(1) img {
-    width: 3em;
-    position: absolute;
-} */
-
-/* section:nth-of-type(1) img:nth-of-type(1) {
-    top: 2em;
-    left: 2em;
-    transform: scaleX(-1);
-}
-
-section:nth-of-type(1) img:nth-of-type(2) {
-    bottom: 7em;
-    right: 6em;
-    transform: rotate(360deg);
-    transform: scaleY(-1);
-} */
-
-/* #home.active {
-}
-
-#about.active {
-    color:white;
-}  */
 
 
 /*------------------------------------------------- section 2 -----------------------------------------------------*/
@@ -366,6 +332,7 @@ section:nth-of-type(2) p {
     color: black;
 }
 
+
 /*---------------------------------------------------- footer -------------------------------------------------------*/
 footer {
     background-color: white;
@@ -390,6 +357,7 @@ footer img {
 }
 
 
+/*---------------------------------------------------- no js fallback -------------------------------------*/
 #fallback-content {
     position: absolute;
     top: 30vh;
