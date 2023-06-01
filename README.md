@@ -26,11 +26,10 @@ I recommend you to open it in a mobile format via inspector.
 ***
 
 ## 🔎 Features 🔎
-* Generate random cat pictures with a third party API (cataas API)
-* Hash change
-* Disabled button when loading the api fetch
+* Generate random cat pictures with a third party (cataas API)
+* Disabled button when loading the api fetch + loading state
 * Offline fallback
-* no js fallback
+* disabled-javaScript fallback
 * (SPA) with hashChangeEvent
   
 ***
