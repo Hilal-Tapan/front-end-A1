@@ -3,6 +3,8 @@ Welcome to the random cat generator. This is a one page webpage that uses a thir
 
 [Live Link](https://hilal-tapan.github.io/front-end-A1/)
 
+I recommend you to open it in a mobile format via inspector.
+
 ***
 
 ## 💻  Installation 💻 
