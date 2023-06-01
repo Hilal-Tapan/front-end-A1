@@ -42,8 +42,8 @@ This project has a MIT License - see the license file for more details.
 * https://cataas.com/#/ 
 * https://www.tutorialsteacher.com/webapi/what-is-web-api 
 * DLO
-* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs 
-
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs
+* https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fcat-logo&psig=AOvVaw0DgNQDg3yQgUzKJ-e_Wdtm&ust=1685657577516000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjYnfvJoP8CFQAAAAAdAAAAABAE 
 ***
 
 ## To do
