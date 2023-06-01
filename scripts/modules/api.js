@@ -1,23 +1,21 @@
 // Importeer functies uit andere JavaScript-bestanden
 import { stopLoading, startLoading } from './states.js'
-import { handleFetchError } from './states.js'
 
-// Functie om elementen in de HTML te vinden
+// Function to find elements in the html
 const element = (element) => {
     return document.querySelector(element)
 }
 
-// Variabelen om HTML-elementen te vinden
 const deButton = element('button')
 
 
-//Button om te klikken voor random data
-// Voegt een eventlistener toe aan de knop om nieuwe data op te halen
+// Button to click for random data
+// Adds an event listener to the button to retrieve new data
 deButton.addEventListener("click", () => {
   console.log("klik");
   if (navigator.onLine) {
       fetchData();
-      // Laat een loading state zien terwijl gegevens worden opgehaald
+      // show a loading state while data is being fetched
       startLoading();
   } else {
       displayOfflineMessage();
@@ -47,12 +45,12 @@ export const fetchData = () => {
           // Set a new timeout to fetch the next random cat image
           // setTimeout(fetchRandomCatImage, 1000);
           // Loading state + progressive enhancement
-          // Wacht een seconde en pas dan veranderingen toe op de elementen
+          // Wait a second
             setTimeout(() => {
                 stopLoading();
 
-                // data veranderen
-                // VRAAG: waarom wordt de delay niet op de fetch toegepast?
+                // change data
+                // VRAAG: waarom wordt de delay niet op de fetch toegepast maar wel op de button?
                 fetchRandomCatImage
             }, 1000);
 

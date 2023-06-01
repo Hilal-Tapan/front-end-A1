@@ -360,8 +360,24 @@ footer img {
 /*---------------------------------------------------- no js fallback -------------------------------------*/
 #fallback-content {
     position: absolute;
-    top: 30vh;
-    padding: 4em;
-    font-size: 12px;
-    font-family: arial;
+    top: 20vh;
+    left: 8vw;
+    width: 60vw;
+    height: 60vw;
+    padding: 4em 3em 4em 3em;
+    background-color: var(--footer);
+    z-index: 10000;
+    text-align: center;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#fallback-content img {
+    width:20em;
+
+
 }
