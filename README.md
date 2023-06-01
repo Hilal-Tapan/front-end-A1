@@ -29,7 +29,9 @@ I recommend you to open it in a mobile format via inspector.
 * Generate random cat pictures with a third party API (cataas API)
 * Hash change
 * Disabled button when loading the api fetch
-* other webAPI's (check my wiki for more info)
+* Offline fallback
+* no js fallback
+* (SPA) with hashChangeEvent
   
 ***
 
